@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="esig_asc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="esig_edr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="esig_nat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="esignal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HAdapt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HArc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HAudio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HDict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HExactMPE.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HFB.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HFBLat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HLabel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HLat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HLM.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HMap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HMath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HMem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HModel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HNet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HParm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HRec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HShell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HSigP.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HTrain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HUtil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HVQ.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HWave.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strarr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="A.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_HCopy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_HInit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_HParse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_HRest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_HVite.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_HResults.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_HSLab.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HGraf_WIN32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="esignal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HAdapt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HArc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HAudio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HDict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HExactMPE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HFB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HFBLat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HGraf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HMem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HParm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HRec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HShell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HSigP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HTrain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HVQ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HWave.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="strarr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,161 @@
+﻿生成启动时间为 2014/12/12 22:21:38。
+     1>项目“D:\CodeStorage\htk\CODE\libhtk\libhtk\libhtk.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt A.c Tool_HSLab.c
+         Tool_HSLab.c
+     1>d:\codestorage\htk\code\libhtk\libhtk\hmath.h(30): warning C4005: “isnan”: 宏重定义
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(289) : 参见“isnan”的前一个定义
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(323): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(399): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(400): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(479): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(509): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : 参见“getenv”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(510): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(627): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(710): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(713): warning C4305: “=”: 从“int”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(715): warning C4244: “=”: 从“HTime”转换到“float”，可能丢失数据
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(718): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(723): warning C4244: “=”: 从“HTime”转换到“float”，可能丢失数据
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(726): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(796): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(799): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(801): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(968): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1047): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1082): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1167): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1204): warning C4018: “>”: 有符号/无符号不匹配
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1215): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1218): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1312): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1525): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1543): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1563): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1592): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1593): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1632): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1667): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1669): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1680): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1688): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1690): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1740): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1790): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1841): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1842): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1845): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1848): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1899): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1904): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1909): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1931): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1947): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1948): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1949): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 参见“strcat”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1954): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(1959): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2066): warning C4305: “函数”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2067): warning C4305: “函数”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2068): warning C4305: “函数”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2069): warning C4305: “函数”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2087): warning C4305: “函数”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2088): warning C4305: “函数”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2090): warning C4305: “函数”: 从“double”到“float”截断
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2095): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\codestorage\htk\code\libhtk\libhtk\tool_hslab.c(2097): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         A.c
+     1>d:\codestorage\htk\code\libhtk\libhtk\a.c(12): warning C4013: “main_HSLab”未定义；假设外部返回 int
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CodeStorage\htk\CODE\libhtk\Debug\libhtk.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CodeStorage\htk\CODE\libhtk\Debug\libhtk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CodeStorage\htk\CODE\libhtk\Debug\libhtk.lib" /MACHINE:X86 Debug\A.obj
+         Debug\esignal.obj
+         Debug\esig_asc.obj
+         Debug\esig_edr.obj
+         Debug\esig_nat.obj
+         Debug\HAdapt.obj
+         Debug\HArc.obj
+         Debug\HAudio.obj
+         Debug\HDict.obj
+         Debug\HExactMPE.obj
+         Debug\HFB.obj
+         Debug\HFBLat.obj
+         Debug\HGraf_WIN32.obj
+         Debug\HLabel.obj
+         Debug\HLat.obj
+         Debug\HLM.obj
+         Debug\HMap.obj
+         Debug\HMath.obj
+         Debug\HMem.obj
+         Debug\HModel.obj
+         Debug\HNet.obj
+         Debug\HParm.obj
+         Debug\HRec.obj
+         Debug\HShell.obj
+         Debug\HSigP.obj
+         Debug\HTrain.obj
+         Debug\HUtil.obj
+         Debug\HVQ.obj
+         Debug\HWave.obj
+         Debug\Tool_HCopy.obj
+         Debug\Tool_HInit.obj
+         Debug\Tool_HParse.obj
+         Debug\Tool_HRest.obj
+         Debug\strarr.obj
+         Debug\Tool_HResults.obj
+         Debug\Tool_HSLab.obj
+         Debug\Tool_HVite.obj
+         libhtk.vcxproj -> D:\CodeStorage\htk\CODE\libhtk\Debug\libhtk.exe
+     1>已完成生成项目“D:\CodeStorage\htk\CODE\libhtk\libhtk\libhtk.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.69

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9632DB14-DD35-4DD5-B2B7-8E88EC61C5E3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libhtk</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="A.c" />
+    <ClCompile Include="esignal.c" />
+    <ClCompile Include="esig_asc.c" />
+    <ClCompile Include="esig_edr.c" />
+    <ClCompile Include="esig_nat.c" />
+    <ClCompile Include="HAdapt.c" />
+    <ClCompile Include="HArc.c" />
+    <ClCompile Include="HAudio.c" />
+    <ClCompile Include="HDict.c" />
+    <ClCompile Include="HExactMPE.c" />
+    <ClCompile Include="HFB.c" />
+    <ClCompile Include="HFBLat.c" />
+    <ClCompile Include="HGraf_WIN32.c" />
+    <ClCompile Include="HLabel.c" />
+    <ClCompile Include="HLat.c" />
+    <ClCompile Include="HLM.c" />
+    <ClCompile Include="HMap.c" />
+    <ClCompile Include="HMath.c" />
+    <ClCompile Include="HMem.c" />
+    <ClCompile Include="HModel.c" />
+    <ClCompile Include="HNet.c" />
+    <ClCompile Include="HParm.c" />
+    <ClCompile Include="HRec.c" />
+    <ClCompile Include="HShell.c" />
+    <ClCompile Include="HSigP.c" />
+    <ClCompile Include="HTrain.c" />
+    <ClCompile Include="HUtil.c" />
+    <ClCompile Include="HVQ.c" />
+    <ClCompile Include="HWave.c" />
+    <ClCompile Include="Tool_HCopy.c" />
+    <ClCompile Include="Tool_HInit.c" />
+    <ClCompile Include="Tool_HParse.c" />
+    <ClCompile Include="Tool_HRest.c" />
+    <ClCompile Include="strarr.c" />
+    <ClCompile Include="Tool_HResults.c" />
+    <ClCompile Include="Tool_HSLab.c" />
+    <ClCompile Include="Tool_HVite.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="esignal.h" />
+    <ClInclude Include="HAdapt.h" />
+    <ClInclude Include="HArc.h" />
+    <ClInclude Include="HAudio.h" />
+    <ClInclude Include="HDict.h" />
+    <ClInclude Include="HExactMPE.h" />
+    <ClInclude Include="HFB.h" />
+    <ClInclude Include="HFBLat.h" />
+    <ClInclude Include="HGraf.h" />
+    <ClInclude Include="HLabel.h" />
+    <ClInclude Include="HLat.h" />
+    <ClInclude Include="HLM.h" />
+    <ClInclude Include="HMap.h" />
+    <ClInclude Include="HMath.h" />
+    <ClInclude Include="HMem.h" />
+    <ClInclude Include="HModel.h" />
+    <ClInclude Include="HNet.h" />
+    <ClInclude Include="HParm.h" />
+    <ClInclude Include="HRec.h" />
+    <ClInclude Include="HShell.h" />
+    <ClInclude Include="HSigP.h" />
+    <ClInclude Include="HTrain.h" />
+    <ClInclude Include="HUtil.h" />
+    <ClInclude Include="HVQ.h" />
+    <ClInclude Include="HWave.h" />
+    <ClInclude Include="strarr.h" />
+    <ClInclude Include="tool.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+libhtk.exe -A -D -T 1 -e ??? sil -I ref.mlf lablist.txt reco.mlf 
+
+No HTK Configuration Parameters Set
+
+====================== HTK Results Analysis =======================
+  Date: Tue Dec 09 10:26:16 2014
+  Ref : ref.mlf
+  Rec : reco.mlf
+------------------------ Overall Results --------------------------
+SENT: %Correct=0.00 [H=0, S=1, N=1]
+WORD: %Corr=0.00, Acc=0.00 [H=0, D=0, S=1, I=0, N=1]
+===================================================================
+
+No HTK Configuration Parameters Set
+
